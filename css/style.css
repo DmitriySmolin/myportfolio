@@ -44,6 +44,7 @@ body {
   margin-left: 20px;
   text-decoration: none;
 }
+
 .social-link:first-child {
   margin-left: 0;
 }
@@ -95,9 +96,11 @@ body {
   color: #2e2e30;
   cursor: pointer;
 }
+
 .hero-button:focus {
   outline: none;
 }
+
 .hero-button:active {
   position: relative;
   top: 3px;
@@ -150,6 +153,93 @@ body {
   margin: 0;
 }
 
+/* projects */
+.projects {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.project-image {
+  width: 338px;
+  height: 268px;
+}
+
+.project-text {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.project-title {
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.project-time,
+.project-cost {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+  display: flex;
+  align-items: flex-start
+}
+
+.project-subtitle {
+  margin: 0;
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.project-paragraph {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.project-icon {
+  margin-right: 16px;
+}
+
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+  cursor: pointer;
+}
+
+.projects-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.projects-bullet-active {
+  background-color: #FFBB01;
+}
+
 /* contacts */
 .contacts-form {
   background: #ffffff;
@@ -200,21 +290,26 @@ body {
   color: #2e2e30;
   cursor: pointer;
 }
+
 .form-button:focus {
   outline: none;
 }
+
 .form-button:active {
   position: relative;
   top: 3px;
 }
+
 .contacts-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .contacts-text {
   flex-basis: 50%;
 }
+
 .contacts-data {
   display: flex;
   flex-wrap: wrap;
@@ -238,6 +333,7 @@ body {
   margin: 0;
   margin-bottom: 15px;
 }
+
 .contacts-link {
   text-decoration: none;
   color: inherit;
